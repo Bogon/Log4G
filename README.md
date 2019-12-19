@@ -31,7 +31,7 @@ pod 'Log4G'
 Or, if you’re using [Carthage](https://github.com/Carthage/Carthage), add SwViewCapture to your Cartfile:
 
 ``` 
-github "zixun/Log4G"
+github "Bogon/Log4G"
 ```
 
 ## Usage
