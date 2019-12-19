@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Log4G'
-  s.version          = '0.4.0'
+  s.version          = '0.4.1'
   s.summary          = 'Simple, lightweight logging framework written in Swift.'
   s.version          = '4.0'
 # This description is used to generate tags and improve search results.
@@ -28,7 +28,7 @@ Simple, lightweight logging framework written in Swift.4G means for GodEye, it w
   s.source           = { :git => 'https://github.com/Bogon/Log4G.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/zixun_'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '10.0'
 
   s.source_files = 'Log4G/Classes/**/*'
   
