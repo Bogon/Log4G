@@ -398,7 +398,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Log4G_Example/Pods-Log4G_Example-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-Log4G_Example/Pods-Log4G_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Log4G/Log4G.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -407,7 +407,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Log4G_Example/Pods-Log4G_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Log4G_Example/Pods-Log4G_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B15D4D79B1689AB750A839A4 /* [CP] Check Pods Manifest.lock */ = {

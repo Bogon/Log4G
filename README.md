@@ -8,7 +8,7 @@
 Simple, lightweight logging framework written in Swift
 
 ## Context
-This library is derived from the [GodEye](https://github.com/zixun/GodEye) project which can automaticly disply Log,Crash,Network,ANR,Leak,CPU,RAM,FPS,NetFlow,Folder and etc with one line of code. Just like god opened his eyes
+This library is derived from the [GodEye](https://github.com/Bogon/GodEye) project which can automaticly disply Log,Crash,Network,ANR,Leak,CPU,RAM,FPS,NetFlow,Folder and etc with one line of code. Just like god opened his eyes
 
 ## Features
 
@@ -24,7 +24,7 @@ Log4G is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod "Log4G"
+pod 'Log4G'
 ```
 
 ### Carthage
@@ -71,6 +71,15 @@ func log4gDidRecord(with model:LogModel) {
 ```swift
 Log4G.remove(delegate: self)
 ```
+
+## 维护者
+
+name: Bogon
+
+email: zhanqgixcu@gmail.com
+
+github: [Bogon](https://github.com/Bogon)
+
 
 ## Author
 

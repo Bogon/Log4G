@@ -8,9 +8,9 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Log4G'
-  s.version          = '0.3.0'
+  s.version          = '0.4.0'
   s.summary          = 'Simple, lightweight logging framework written in Swift.'
-
+  s.version          = '4.0'
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
 #   * Try to keep it short, snappy and to the point.
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 Simple, lightweight logging framework written in Swift.4G means for GodEye, it was development for GodEye at the beginning of the time.
                        DESC
 
-  s.homepage         = 'https://github.com/zixun/Log4G'
+  s.homepage         = 'https://github.com/Bogon/Log4G'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'zixun' => 'chenyl.exe@gmail.com' }
-  s.source           = { :git => 'https://github.com/zixun/Log4G.git', :tag => s.version.to_s }
+  s.author           = { 'Bogon' => 'zhangqixcu@gmail.com' }
+  s.source           = { :git => 'https://github.com/Bogon/Log4G.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/zixun_'
 
   s.ios.deployment_target = '8.0'
