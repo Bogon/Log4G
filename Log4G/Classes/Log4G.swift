@@ -110,10 +110,8 @@ open class Log4G: NSObject {
                                  line: line,
                                  function: function)
             print(message)
-            
-            while let delegate: Log4GDelegate = self.delegates.objectEnumerator().nextObject() as? Log4GDelegate {
-                delegate.log4gDidRecord(with: model)
-            }
+            let delegate: Log4GDelegate = (self.delegates.objectEnumerator().nextObject() as! Log4GDelegate)
+            delegate.log4gDidRecord(with: model)
         }
     }
     
